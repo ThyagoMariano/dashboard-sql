@@ -1,0 +1,161 @@
+<!-- Coding by CodingLab | www.codinglabweb.com -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Dashboard Sidebar Menu</title> 
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="logo.png" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <p class="ola">Olá!</p>
+                    <span class="name">Iuri Oliveira</span>
+                    <!--<span class="profession">Web developer</span>-->
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <hr class="fade">
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-dashboard icon'></i>
+                            <span class="text nav-text" >Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-book-bookmark icon'></i>
+                            <span class="text nav-text">Exercícios</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-trophy icon'></i>
+                            <span class="text nav-text">Competição</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-crown icon'></i>
+                            <span class="text nav-text">Ranking</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-book-reader icon'></i>
+                            <span class="text nav-text">Professor</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Entrar</span>
+                    </a>
+                </li>
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home" >
+        <section id="section">
+            <div class="container">
+              <header id="header">
+                <h1>Dashboard</h1>
+              </header>
+              <main>
+                <section class="">
+                  <div class="grid">
+                    <div class="pt__diario">
+                      <div>pontuação diaria</div>
+                      <div>100 pt</div>
+                    </div>
+                    <div class="pt__semanal">
+                      <div>pontuação semanal</div>
+                      <div>100 pt</div>
+                    </div>
+                    <div class="pt__mensal">
+                      <div>pontuação mensal</div>
+                      <div>100 pt</div>
+                    </div>
+                  </div>
+                  <div class="grafico__horas bg__graficos">
+                    <div class="grafico__layout"></div>
+                    <div class="grafico__dados">
+                      <div class="grafico__dados__titulo">
+                        Quantidade de horas usando a plataforma
+                      </div>
+                      <div class="grafico__dados__tmensal">
+                        <div class="grafico__dados__tmensal__titulo">
+                          Total Mensal
+                        </div>
+                        <div class="grafico__dados__tmensal__horas">120 horas</div>
+                      </div>
+                      <div class="grafico__dados__maiorm">
+                        <div class="grafico__dados__maiorm__titulo">
+                          Maior número em 1 dia
+                        </div>
+                        <div class="grafico__dados__maiorm__view">
+                          07 horas e 20 min
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grafico__ranking bg__graficos">
+                    <div class="grafico__ranking__titulo">Posições no ranking</div>
+                    <div class="grafico__ranking__layout"></div>
+                  </div>
+                </section>
+                <section class="test">
+                  <div class="recados bg__graficos">
+                    <div class="recado__titulo">Recados</div>
+                    <div class="recado__conteudo">Nova atividade do prof Jose</div>
+                    <div class="recado__conteudo">Você ainda não completou o desafio:    Update SQL</div>
+                    <div class="recado__conteudo">Você subiu uma posição no ranking, PARÁBENS!!!</div>
+                   
+                  </div>
+                  <div class="grafico__pizza bg__graficos">
+                    <div class="grafico__pizza__titulo">Grafico de Pizza</div>
+                    <div class="grafico__pizza__layout">75%</div>
+                  </div>
+                </section>
+              </main>
+            </div>
+          </section>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
